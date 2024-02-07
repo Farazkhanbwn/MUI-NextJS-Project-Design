@@ -1,0 +1,19 @@
+.userSerach{
+    border: 1px solid rgb(153, 151, 151);  
+    display: inline-block;
+    padding: .3rem .8rem;
+    border-radius: 20rem;
+
+}
+
+.inputStyle{
+    border: none;
+    outline: none;
+}
+
+.arrowButton{
+    background-color: rgb(168, 168, 168);
+    border: none;
+    border-radius: 20%;
+    padding: 0;
+}

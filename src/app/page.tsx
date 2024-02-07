@@ -4,7 +4,8 @@ import ArrowCircleRightRoundedIcon from "@mui/icons-material/ArrowCircleRightRou
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 import { EditNotifications } from "@mui/icons-material";
 import UserCard from "@/shared/components/user-card";
-import ToolTip from "@/shared/components/toolTip";
+import ListDoc from "@/shared/components/list-doc";
+import SearchForm from "@/shared/components/serach-form/serach-form";
 
 export default function Home() {
   const BlueButton = styled(Button)({
@@ -66,7 +67,8 @@ export default function Home() {
 
       {/* 3rd Button */}
       {/* <UserCard /> */}
-      <ToolTip />
+      {/* <ListDoc/> */}
+      <SearchForm/>
     </div>
   );
 }

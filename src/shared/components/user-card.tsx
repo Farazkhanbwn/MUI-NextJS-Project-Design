@@ -7,6 +7,11 @@ const CardStyle = styled(Stack)({
   flexDirection: "column",
 });
 
+const UserDesign = styled(Box)({
+  display: "flex",
+  justifyContent: "space-between",
+});
+
 const UserCard = () => {
   return (
     <CardStyle>
@@ -51,11 +56,38 @@ const UserCard = () => {
         </Box>
 
         {/* 4th box */}
-        <Box sx={{ display: "flex", justifyContent: "space-between" , m: 0 , p:0 }}>
+        <Box
+          sx={{ display: "flex", justifyContent: "space-between", m: 0, p: 0 }}
+        >
           <Typography>Inventory</Typography>
           <Typography>Essentials For Living</Typography>
         </Box>
       </Box>
+
+      <UserDesign>
+        <Typography>Crawl Type</Typography>
+        <Typography>Discovery Crawl</Typography>
+      </UserDesign>
+
+      <UserDesign>
+        <Typography>Crawl Stage</Typography>
+        <Typography>Google Crawl 3</Typography>
+      </UserDesign>
+
+      <UserDesign>
+        <Typography>Error Code:</Typography>
+        <Typography>404 Error</Typography>
+      </UserDesign>
+
+      <UserDesign>
+        <Typography>Status Date</Typography>
+        <Typography>Jan 2, 2024</Typography>
+      </UserDesign>
+
+      <UserDesign>
+        <Typography>Crawl Page Link:</Typography>
+        <Typography></Typography>
+      </UserDesign>
     </CardStyle>
   );
 };
